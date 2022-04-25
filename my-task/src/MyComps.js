@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom"
 export const Comp1 = ()=>{
     return (
         <>
-        <h1>Comp1 pages</h1>
+        <h1>Login</h1>
         </>
     )
 }
@@ -11,7 +11,7 @@ export const Comp2 = ()=>{
     const{dhana}=useParams()
     return (
         <>
-        <h1>Comp2 pages {dhana}</h1>
+        <h1>New Account Create</h1>
         </>
     )
 }
