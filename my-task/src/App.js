@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Comp1, Comp2, Comp3 } from "./MyComps";
 import { NewAccount } from "./Signup";
 import { Login } from "./Login";
+import { Home } from "./Home";
 
 const App=()=>{
   return(
@@ -13,7 +14,7 @@ const App=()=>{
     <Routes>
       <Route path="/" exact element={<Login/>} />
       <Route path="/sign" exact element={<NewAccount/>} />
-      <Route path="/third" exact element={<Comp3/>} />
+      <Route path="/home" exact element={<Home/>} />
     </Routes>
 
     </BrowserRouter>
